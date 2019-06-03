@@ -44,6 +44,12 @@ namespace TestProject
             });
         }
 
+
+             async void OnSliderButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SliderPage());
+        }
+
         async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)

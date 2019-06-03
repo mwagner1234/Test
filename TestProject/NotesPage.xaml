@@ -6,6 +6,8 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+"
                      Clicked="OnNoteAddedClicked" />
+        <ToolbarItem Text="slider"
+                     Clicked="OnSliderButtonClicked" />
     </ContentPage.ToolbarItems>
     <ListView x:Name="listView"
               Margin="20"
