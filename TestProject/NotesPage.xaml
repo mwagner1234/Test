@@ -8,6 +8,8 @@
                      Clicked="OnNoteAddedClicked" />
         <ToolbarItem Text="slider"
                      Clicked="OnSliderButtonClicked" />
+        <ToolbarItem Text="PicCam"
+                     Clicked="OnPicCamButtonClicked" />
     </ContentPage.ToolbarItems>
     <ListView x:Name="listView"
               Margin="20"

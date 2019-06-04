@@ -50,6 +50,12 @@ namespace TestProject
             await Navigation.PushAsync(new SliderPage());
         }
 
+        async void OnPicCamButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PicCamPage());
+        }
+
+
         async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)
